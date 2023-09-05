@@ -15,7 +15,7 @@ This project aims to be a reference for those just starting to work with Java an
 From the project's folder, execute:
 to initialize Kafka and Zookeeper
 ````bash 
-docker-compose up
+docker-compose up -d
 ````
 to build the applications
 ````bash 
