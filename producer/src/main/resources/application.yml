@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+kafka:
+  config:
+    bootstrap:
+      server: 'localhost:9092'
+    group:
+      id: gp-foo-bar
+    topic:
+      id: tp-foo-bar
